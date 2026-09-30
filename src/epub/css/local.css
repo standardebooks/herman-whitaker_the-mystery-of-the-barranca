@@ -35,3 +35,14 @@ section[epub|type~="dedication"] > *{
 	font-variant: all-small-caps;
 }
 /* End telegram CSS */
+
+/* Book Specific CSS */
+#chapter-17 blockquote p{
+	font-variant: all-small-caps;
+	text-align: center;
+}
+
+[epub|type~="dedication"]{
+	font-style: italic;
+}
+/* End book specific CSS */
