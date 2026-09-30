@@ -31,51 +31,52 @@
 		<dc:title id="title">The Mystery of the Barranca</dc:title>
 		<meta property="file-as" refines="#title">Mystery of the Barranca, The</meta>
 		<dc:subject id="subject-1">Detective and mystery stories</dc:subject>
+		<dc:subject id="subject-2">Mexico--Fiction</dc:subject>
+		<dc:subject id="subject-3">Gold mines and mining--Fiction</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">sh85037260</meta>
-		<dc:subject id="subject-2">Mexico--Fiction</dc:subject>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">sh2007100302</meta>
-		<meta property="schema:genre">TAG</meta>
-		<meta property="schema:abstract">ABSTRACT</meta>
+		<meta property="authority" refines="#subject-3">LCSH</meta>
+		<meta property="term" refines="#subject-3">sh2008105329</meta>
+		<meta property="schema:genre">Fiction</meta>
+		<meta property="schema:genre">Mystery</meta>
+		<meta property="schema:abstract">A mining engineer and his friend suffer a series of misfortunes in their search for riches and treasure.</meta>
 		<dc:description>
-			DESCRIPTION
+			&lt;p&gt;William Thornton and Robert Seyd, two American citizens who formed a close friendship in their college years thanks to a shared interest in mining. Being an activity that tests the strength in both body and spirit of those who partake in it, an agreement was made between them where whoever finds a good prospect for their cause has to contact the other so that they may work together and share the rewards of their efforts. The day to honor this pact finally came when Robert became of a rich copper mine located in the state of Guerrero, Mexico known as Santa Gertrudis.&lt;/p&gt;
+			&lt;p&gt;Having spent the last two years traveling through a foreign land based on a mere hunch, the two men have grown accustomed to Mexican life in their own way, finding the idiosyncrasies of the people they encounter a point of interest and entertainment while they slowly but steadily approach their goal. While waiting at a local train station, William is struck by the beauty and unique features of an elegant young woman accompanied by a large Siberian wolfhound. As a train approaches, her dog unexpectadly leaps onto the tracks. Robert, acting quickly, gets the dog to safety in the nick of time. Despite their initial refusal to accept anything for this display of foolhardy bravery, Don Sebastien Rocha—the girl’s companion and nephew of the general who owns the land where the mine resides—offers men and riding mules to the American duo to transport their tools and equipment so that they can set up shop at the mine.&lt;/p&gt;
+			&lt;p&gt;What appeared to be a stroke of good luck ends up becoming a prelude to a seemingly endless wave of challenges, as the bad omen surrounding Santa Gertrudis and General Luis García’s considerable dislike towards Americans and anyone who intrudes upon his land make themselves known at every opportunity. Being forced to rely on their own resilience and resourcefulness, William and Robert manage to set up a small operation against all odds, a copper smelter that would allow them to recoup costs and might eventually lead to business dealings with American shipping and manufacturing companies and a profitable future for both.&lt;/p&gt;
+			&lt;p&gt;Resting for the night in the wake of the culmination of their efforts, a massive explosion at the smelter disrupts their sleep and their first semblance of hope and success in a long time. Facing the destruction of months of hard work, a severe lack of funds or any means that could help them recover in any meaningful capacity, General Luis arrives at the scene with an offer to lend William and Robert fifty thousand pesos to rebuild their venture despite their lack of collateral beyond the mine itself, having to begin repay the borrowed money in a year’s time and being the subject of whatever hidden agenda he might have.&lt;/p&gt;
 		</dc:description>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/36198</dc:source>
-		<dc:source>PAGE_SCANS_URL</dc:source>
+		<dc:source>https://archive.org/details/mysterybarranca00whitrich</dc:source>
 		<meta property="schema:wordCount">WORD_COUNT</meta>
 		<meta property="schema:educationalLevel">READING_EASE</meta>
-		<link href="EBOOK_WIKI_URL" rel="schema:sameAs"/>
 		<meta id="vcs-repository" property="schema:workExample">schema:workExample</meta>
 		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
 		<link href="https://github.com/standardebooks/herman-whitaker_the-mystery-of-the-barranca" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">Herman Whitaker</dc:creator>
 		<meta property="file-as" refines="#author">Whitaker, Herman</meta>
-		<meta property="schema:alternateName" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
+		<meta property="schema:alternateName" refines="#author">Herman James Whitaker</meta>
 		<link href="https://en.wikipedia.org/wiki/Herman_Whitaker" refines="#author" rel="schema:sameAs"/>
 		<link href="https://id.loc.gov/authorities/names/no90021479.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">COVER_ARTIST_NAME</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<link href="COVER_ARTIST_WIKI_URL" refines="#artist" rel="schema:sameAs"/>
-		<link href="COVER_ARTIST_NACOAF_URI" refines="#artist" rel="schema:sameAs"/>
+		<meta property="role" refines="#author" scheme="marc:relators">dto</meta>
+		<dc:contributor id="artist">Jean-François Millet</dc:contributor>
+		<meta property="file-as" refines="#artist">Millet, Jean-François</meta>
+		<link href="https://en.wikipedia.org/wiki/Jean-Fran%C3%A7ois_Millet" refines="#artist" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n50033212.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER_1_NAME</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_1_SORT</meta>
-		<link href="TRANSCRIBER_1_URL" refines="#transcriber-1" rel="schema:url"/>
+		<dc:contributor id="transcriber-1">D. Alexander</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Alexander, D.</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="transcriber-2">TRANSCRIBER_2_NAME</dc:contributor>
-		<meta property="file-as" refines="#transcriber-2">TRANSCRIBER_2_SORT</meta>
-		<link href="TRANSCRIBER_2_URL" refines="#transcriber-2" rel="schema:url"/>
+		<dc:contributor id="transcriber-2">Distributed Proofreaders</dc:contributor>
+		<meta property="file-as" refines="#transcriber-2">Distributed Proofreaders</meta>
+		<link href="https://www.pgdp.net/" refines="#transcriber-2" rel="schema:url"/>
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
-		<dc:contributor id="transcriber-3">Distributed Proofreaders</dc:contributor>
-		<meta property="file-as" refines="#transcriber-3">Distributed Proofreaders</meta>
-		<link href="https://www.pgdp.net/" refines="#transcriber-3" rel="schema:url"/>
-		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER_NAME</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<link href="PRODUCER_URL" refines="#producer-1" rel="schema:url"/>
+		<dc:contributor id="producer-1">Sergio Tellez</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Tellez, Sergio</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
