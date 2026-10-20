@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/herman-whitaker/the-mystery-of-the-barranca</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2026-10-20T16:58:49Z</dc:date>
+		<meta property="dcterms:modified">2026-10-20T16:58:49Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
 		<meta property="rdf:type">http://schema.org/Book</meta>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
@@ -43,16 +43,15 @@
 		<meta property="schema:genre">Mystery</meta>
 		<meta property="schema:abstract">A mining engineer and his friend suffer a series of misfortunes in their search for riches and treasure.</meta>
 		<dc:description>
-			&lt;p&gt;William Thornton and Robert Seyd, two American citizens who formed a close friendship in their college years thanks to a shared interest in mining. Being an activity that tests the strength in both body and spirit of those who partake in it, an agreement was made between them where whoever finds a good prospect for their cause has to contact the other so that they may work together and share the rewards of their efforts. The day to honor this pact finally came when Robert became of a rich copper mine located in the state of Guerrero, Mexico known as Santa Gertrudis.&lt;/p&gt;
-			&lt;p&gt;Having spent the last two years traveling through a foreign land based on a mere hunch, the two men have grown accustomed to Mexican life in their own way, finding the idiosyncrasies of the people they encounter a point of interest and entertainment while they slowly but steadily approach their goal. While waiting at a local train station, William is struck by the beauty and unique features of an elegant young woman accompanied by a large Siberian wolfhound. As a train approaches, her dog unexpectadly leaps onto the tracks. Robert, acting quickly, gets the dog to safety in the nick of time. Despite their initial refusal to accept anything for this display of foolhardy bravery, Don Sebastien Rocha—the girl’s companion and nephew of the general who owns the land where the mine resides—offers men and riding mules to the American duo to transport their tools and equipment so that they can set up shop at the mine.&lt;/p&gt;
-			&lt;p&gt;What appeared to be a stroke of good luck ends up becoming a prelude to a seemingly endless wave of challenges, as the bad omen surrounding Santa Gertrudis and General Luis García’s considerable dislike towards Americans and anyone who intrudes upon his land make themselves known at every opportunity. Being forced to rely on their own resilience and resourcefulness, William and Robert manage to set up a small operation against all odds, a copper smelter that would allow them to recoup costs and might eventually lead to business dealings with American shipping and manufacturing companies and a profitable future for both.&lt;/p&gt;
-			&lt;p&gt;Resting for the night in the wake of the culmination of their efforts, a massive explosion at the smelter disrupts their sleep and their first semblance of hope and success in a long time. Facing the destruction of months of hard work, a severe lack of funds or any means that could help them recover in any meaningful capacity, General Luis arrives at the scene with an offer to lend William and Robert fifty thousand pesos to rebuild their venture despite their lack of collateral beyond the mine itself, having to begin repay the borrowed money in a year’s time and being the subject of whatever hidden agenda he might have.&lt;/p&gt;
+			&lt;p&gt;William Thornton and Robert Seyd are two American friends who share an interest in mining. They make an agreement that whoever finds a good prospect has to contact the other so that they can work together to exploit the mine. The day to honor this pact finally comes when Robert finds a rich copper mine in Guerrero, Mexico.&lt;/p&gt;
+			&lt;p&gt;On the way to the mine, William is struck by the beauty of an elegant young woman, accompanied by a large Siberian wolfhound, at a local train station. As the train approaches, the dog leaps onto the tracks. Robert, acting quickly, gets the dog to safety in the nick of time. The girl’s companion—the nephew of the general who owns the land under the mine—offers the American duo men and mules to transport their equipment to their destination.&lt;/p&gt;
+			&lt;p&gt;What appears to be a stroke of good luck ends up becoming a prelude to seemingly endless wave of challenges, as the bad omens surrounding the mine, and the general's animosity towards Americans, threaten to lead William and Robert down a path of treachery and darkness.&lt;/p&gt;
 		</dc:description>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/36198</dc:source>
 		<dc:source>https://archive.org/details/mysterybarranca00whitrich</dc:source>
-		<meta property="schema:wordCount">WORD_COUNT</meta>
-		<meta property="schema:educationalLevel">READING_EASE</meta>
+		<meta property="schema:wordCount">64456</meta>
+		<meta property="schema:educationalLevel">71.44</meta>
 		<meta id="vcs-repository" property="schema:workExample">schema:workExample</meta>
 		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
 		<link href="https://github.com/standardebooks/herman-whitaker_the-mystery-of-the-barranca" refines="#vcs-repository" rel="schema:codeRepository"/>
@@ -83,6 +82,10 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">Vince Rice</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Rice, Vince</meta>
+		<link href="https://www.brokenandsaved.com/" refines="#producer-2" rel="schema:url"/>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
