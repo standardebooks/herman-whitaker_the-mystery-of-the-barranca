@@ -38,7 +38,7 @@ section[epub|type~="dedication"] > *{
 
 /* Book Specific CSS */
 #chapter-17 blockquote p{
-	font-variant: all-small-caps;
+	font-variant: small-caps;
 	text-align: center;
 }
 
